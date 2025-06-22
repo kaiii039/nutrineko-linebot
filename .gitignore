@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Django
+db.sqlite3
+.env
+
+# 虛擬環境
+.venv/
+venv/
+env/
+
+# IDE 設定
+.idea/
+*.iml
+
+# Windows 執行檔
+*.exe
