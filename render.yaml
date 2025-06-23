@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: nutrineko-linebot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn NutriNeko.wsgi:application"
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: NutriNeko.settings
