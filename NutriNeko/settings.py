@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-5w4zkgfm44x6fs=^d+p5jz-4!3-1sgiwwd1p7jrk#03+%#tdof
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", ".ngrok-free.app"]
+ALLOWED_HOSTS = ['nutrineko-linebot.onrender.com']
 
 
 # Application definition
